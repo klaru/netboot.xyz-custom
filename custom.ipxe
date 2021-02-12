@@ -20,12 +20,12 @@ goto custom_exit
 :option_one
 kernel http://192.168.1.28:8090/ubuntu-squash/releases/download/20.04.2-3f82ff65/vmlinuz
 initrd http://192.168.1.28:8090/ubuntu-squash/releases/download/20.04.2-3f82ff65/initrd
-#imgargs vmlinuz put_kernel_img_args_here
+imgargs vmlinuz ip=dhcp boot=casper netboot=url url=http://192.168.1.28:8090/ubuntu-squash/releases/download/20.04.2-3f82ff65/filesystem.squashfs initrd=initrd
 boot || goto custom_exit
 
 :option_two
 kernel https://boot.netboot.xyz/memdisk raw iso
-initrd http://192.168.1.28:8090/memtest.iso
+initrd http://192.168.1.28:8090/EmergencyDisk.iso
 boot || goto custom_exit
 
 :option_three
