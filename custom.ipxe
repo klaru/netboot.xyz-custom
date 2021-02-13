@@ -5,7 +5,7 @@
 
 :custom
 clear custom_choice
-menu This is a Klaus's Test Menu
+menu This is Klaus's Test Menu
 item --gap This is the first sub menu
 item option_one ${space} Loading live-ubuntu 20.04.2 LXDE
 item option_two ${space} Loading memtest86-5.01.0
