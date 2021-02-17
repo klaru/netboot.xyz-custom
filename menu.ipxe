@@ -26,7 +26,7 @@ set space ${space:string}
 iseq ${arch} x86_64 && set arch_a amd64 || set arch_a ${arch}
 menu ${site_name}
 item --gap 1Default:
-item local ${space} Boot from local hdd
+item local ${space} Boot from local hdd custom
 item --gap 2Distributions:
 iseq ${menu_linux} 1 && item linux ${space} Linux Network Installs ||
 iseq ${menu_linux_arm} 1 && item linux-arm ${space} Linux Network Installs ||
