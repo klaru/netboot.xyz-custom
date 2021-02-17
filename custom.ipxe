@@ -16,7 +16,7 @@ set memdisk http://192.168.1.28:8090/memdisk
 # set location of custom netboot.xyz live assets
 #set live_endpoint https://github.com/netbootxyz
 #set live_endpoint http://192.168.1.28:8090
-set live_endpoint http://raw.gitusercontent.com/klaru/netboot.xyz-custom/master/
+set live_endpoint https://raw.githubusercontent.com/klaru/netboot.xyz-custom/master/
 
 # signature check enabled?
 set sigs_enabled false
